@@ -16,7 +16,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: wheat;
 }
 .brand{
     margin-left: 5rem;
@@ -70,7 +69,7 @@ body {
     justify-content: center;
     display: flex;
     position: relative;
-    margin: 2em;
+    margin: 3em;
 }
 
 .image i {
@@ -85,6 +84,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .table h1 {
@@ -106,18 +106,36 @@ body {
 
 .column {
     float: left;
-    width: 31%;
+    width: 33%;
     text-align: start;
     justify-content: center;
     margin: rem 3rem;
-    padding: 2rem 6rem;
+    padding: 2rem 5rem;
+    position: relative;
 }
 
 .row {
-    margin-left: 7rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    clear: left;
 }
 
+.column img {
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+}
 
+@media(max-width:768px){
+
+    .column{
+        width: 50%;
+    }
+
+    .image {
+        width: 600px;
+    }
+}
 
 
 
