@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 .brand{
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 .page-links {
@@ -127,12 +127,11 @@ body {
 }
 
 .founder-box {
-    width: 1000px;
     clear: left;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 15rem;
+    margin: 0 2.5rem;
 }
 
 .founder-box .ceo {
@@ -144,7 +143,7 @@ body {
 }
 
 .quote {
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .quote h5 {
@@ -160,14 +159,60 @@ body {
     width: 4rem;
 }
 
+.jobs h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.jobs {
+    margin-top: 4rem;
+}
+
+.job {
+    border: 3px solid rgba(0, 0, 0, 0.1);;
+    border-radius: 10px;
+    height: 224px;
+    background: #FCFCFC;
+    margin-top: 2.5rem;
+    position: relative;
+
+}
+
+.job h3{
+    padding-top: 5rem;
+}
+
+.job h3, p {
+    padding-left: 2rem;
+}
+
+.job .fa-3x {
+    color: red;
+}
+.view-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn-end {
+padding: 10px 15px;
+color: white;
+background-color: #1A6AE2;
+border: none;
+border-radius: 5px;
+}
+
 @media(max-width:768px){
 
     .column{
         width: 50%;
     }
 
-    .image {
-        width: 600px;
+    .founder-box {
+        margin: 0;
     }
 
 }
