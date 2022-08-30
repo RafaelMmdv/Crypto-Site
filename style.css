@@ -33,12 +33,22 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 1rem 1.5rem;
+    color: #0055d4;
+    font-size: 1.1rem;
 }
 .btn{
     padding: .5rem 1rem;
     margin: 0 .5rem ;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-log{
+    border: 2px solid rgb(34, 255, 0);
+}
+.btn:hover{
+    opacity: .7;
 }
 .registr{
     margin-right: 5rem;
@@ -257,7 +267,9 @@ ul {
     margin-left: 1rem;
 }
 
-
+.page-link a:hover{
+    color: orangered;
+}
 
 
 
@@ -285,6 +297,9 @@ ul {
     .media {
         margin-left: 20rem;
         margin-top: 2rem;
+    }
+    .column img {
+        display: none;
     }
 }
 
@@ -340,6 +355,10 @@ ul {
     .media {
         margin-left: 5rem;
         margin-top: 1rem;
+    }
+
+    .column img {
+        display: none;
     }
 }
 
