@@ -110,7 +110,7 @@ body {
     text-align: start;
     justify-content: center;
     margin: rem 3rem;
-    padding: 2rem 5rem;
+    padding: 2rem 4rem;
     position: relative;
 }
 
@@ -126,6 +126,40 @@ body {
     left: 1.5rem;
 }
 
+.founder-box {
+    width: 1000px;
+    clear: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 15rem;
+}
+
+.founder-box .ceo {
+    float: left;
+}
+
+.ceo img {
+    width: 450px;
+}
+
+.quote {
+    margin-left: 3rem;
+}
+
+.quote h5 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.quote p {
+    font-size: .8rem;
+}
+
+.quote img{
+    width: 4rem;
+}
+
 @media(max-width:768px){
 
     .column{
@@ -135,6 +169,7 @@ body {
     .image {
         width: 600px;
     }
+
 }
 
 
