@@ -193,11 +193,14 @@ body {
     background: #FCFCFC;
     margin-top: 2.5rem;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.job h3{
-    padding-top: 5rem;
+.job .left {
+    flex-direction: column;
 }
 
 .job h3, .job p {
@@ -205,11 +208,9 @@ body {
 }
 
 .job .fa-3x {
-    color: red;
-    float: right;
-    display: block;
-    padding-right: 2rem;
-    padding-bottom: 3rem;
+    color: rgb(0, 102, 255);
+    margin-right: 8rem;
+
 }
 .view-btn {
     justify-content: center;
