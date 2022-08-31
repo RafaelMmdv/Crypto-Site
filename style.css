@@ -302,6 +302,11 @@ ul {
     .column img {
         display: none;
     }
+
+    .job .fa-3x {
+        color: rgb(0, 102, 255);
+        margin-right: 6rem; 
+    }
 }
 
 
@@ -310,6 +315,7 @@ ul {
 
     .column{
         width: 100%;
+        text-align: center;
     }
 
     .registr{
@@ -347,20 +353,46 @@ ul {
 
     .about, .portfolio, .consultancy, .contact {
         margin-left: .5rem;
-        margin-top: 7rem;
+        margin-top: 3rem;
         color: white;
         font-size: .75rem;
     
     }
 
     .media {
-        margin-left: 5rem;
-        margin-top: 1rem;
+        margin-left: 3.5rem;
+        margin-top: 1.5rem;
     }
 
     .column img {
         display: none;
     }
+
+    .job .fa-3x {
+        color: rgb(0, 102, 255);
+        margin-right: 3rem;
+    
+    }
+
+    .table h1{
+        font-size: 2rem;
+    }
+
+    .quote {
+        margin-left: .5rem;
+    }
+
+    footer {
+        background-color: #496693;
+        height: 250px;
+    }
+    
+    .footer{
+        display: flex;
+        margin-left: 2rem;
+        
+    }
+
 }
 
 
