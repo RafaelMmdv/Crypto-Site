@@ -315,8 +315,15 @@ ul {
         margin-right: 3rem;
     }
 
+    .main-header{
+        height: 40vh;
+    }
+
+    .content {
+    height: 70%;
+}
+
     .content h1{
-        margin-top: 5rem;
         font-size: 1.5rem;
     }
 
