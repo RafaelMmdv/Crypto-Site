@@ -260,7 +260,7 @@ ul {
     color: orangered;
 }
 
-
+/* Tablets */
 
 @media(max-width:992px){
 
@@ -297,7 +297,7 @@ ul {
     }
 }
 
-
+/* Mobile */
 
 @media(max-width:768px){
 
