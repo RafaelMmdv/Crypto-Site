@@ -316,11 +316,11 @@ ul {
     }
 
     .main-header{
-        height: 40vh;
+        height: 35vh;
     }
 
     .content {
-    height: 70%;
+    height: 100%;
 }
 
     .content h1{
